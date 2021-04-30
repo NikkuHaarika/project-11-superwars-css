@@ -2,3 +2,23 @@
   margin-left : 80px;
   font-size : 18px;
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+#hero{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#villian{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#col3{
+  font-size: 30px;
+  text-align: center;
+}
